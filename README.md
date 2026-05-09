@@ -1,12 +1,12 @@
 # Predicting Federal Reserve Communication Tone via NLP and Market Features
 
 > CS439 Final Project: FOMC Statement Tone Prediction Pipeline
-> Author: Samikha Srinivasan 
+Author: Samikha Srinivasan 
 ---
 
 ## Overview
 
-This project builds a multi-layer machine learning pipeline to predict the **tone of Federal Reserve (FOMC) statements** — specifically measuring *hawkishness*, *uncertainty*, and *concern* using a combination of NLP-derived text features and market/macroeconomic signals.
+This project builds a multi-layer machine learning pipeline to predict the **tone of Federal Reserve (FOMC) statements** specifically measuring *hawkishness*, *uncertainty*, and *concern* using a combination of NLP-derived text features and market/macroeconomic signals.
 
 We scrape and preprocess FOMC meeting statements dating back to 1994, apply LDA topic modeling and Sentence-BERT embeddings, engineer 21 market features (yield curve slope, VIX, S&P 500, HY spreads, etc.), and train XGBoost regressors across a 5-stage ablation study. Evaluation includes SHAP feature importance, PCA projections, error analysis by Fed chair era, and directional accuracy metrics.
 
