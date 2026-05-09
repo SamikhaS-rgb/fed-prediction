@@ -1,0 +1,16 @@
+stage,description,target,cv_mse,test_mse,test_dir_acc
+baseline,Previous statement tone only (autoregressive),hawkishness,0.8756,0.876,0.522
+baseline,Previous statement tone only (autoregressive),uncertainty,0.4923,0.3865,0.565
+baseline,Previous statement tone only (autoregressive),concern,0.2395,0.1351,0.543
+macro,+ Macro / regime features,hawkishness,0.853,0.6056,0.63
+macro,+ Macro / regime features,uncertainty,0.5351,0.2915,0.609
+macro,+ Macro / regime features,concern,0.3028,0.1576,0.522
+mkt_level,+ Market level features,hawkishness,1.1149,0.8167,0.609
+mkt_level,+ Market level features,uncertainty,0.503,0.3991,0.565
+mkt_level,+ Market level features,concern,0.3836,0.1086,0.435
+mkt_trend,+ Market trend features,hawkishness,1.0499,0.6887,0.587
+mkt_trend,+ Market trend features,uncertainty,0.4927,0.3236,0.587
+mkt_trend,+ Market trend features,concern,0.3607,0.1825,0.37
+full,+ Market volatility features (full model),hawkishness,0.9693,0.7754,0.587
+full,+ Market volatility features (full model),uncertainty,0.4567,0.2932,0.543
+full,+ Market volatility features (full model),concern,0.3504,0.2024,0.304
